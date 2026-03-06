@@ -33,6 +33,11 @@
   "pnpm": {
     "overrides": {
       "rollup": "npm:@rollup/wasm-node"
-    }
+    },
+    "ignoredBuiltDependencies": [
+      "@parcel/watcher",
+      "esbuild",
+      "unrs-resolver"
+    ]
   }
 }
